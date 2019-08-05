@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Daymos
+title: About Me
 permalink: /about/
 ---
 

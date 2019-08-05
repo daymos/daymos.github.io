@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Daymos' Big (Data) Lessons
+title: Daymos' (Big) Data Lessons
 email: matt.321.null@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Big Data and Machine Learning lessons.
@@ -21,12 +21,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  daymos
 
+lang: en
+domain: andersonvom.tk
+comments: true
+
+
 # Build settings
-markdown: CommonMarkGhPages
+#markdown: CommonMarkGhPages
+markdown: kramdown
 theme: minima
 
 plugins:
-  - jekyll-feed
+    #  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
