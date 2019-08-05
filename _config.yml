@@ -26,8 +26,8 @@ comments: true
 
 
 # Build settings
-#markdown: CommonMarkGhPages
-markdown: kramdown
+markdown: CommonMarkGhPages
+#markdown: kramdown
 theme: minima
 
 plugins:

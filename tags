@@ -131,8 +131,6 @@ Daymos&#39; (Big) Data Lessons	_site/404.html	/^    <h2 class="footer-heading">D
 Daymos&#39; (Big) Data Lessons	_site/about/index.html	/^    <h2 class="footer-heading">Daymos&#39; (Big) Data Lessons<\/h2>$/;"	i
 Daymos&#39; (Big) Data Lessons	_site/index.html	/^    <h2 class="footer-heading">Daymos&#39; (Big) Data Lessons<\/h2>$/;"	i
 Feel free to add content and custom Front Matter to this file.	index.md	/^# Feel free to add content and custom Front Matter to this file.$/;"	c
-GPU for 30 dollars	_site/index.html	/^        <\/h3><\/li><li><span class="post-meta">Aug 3, 2019<\/span>$/;"	j
-GPU for 30 dollars 03 Aug 2019	_site/machine/learning/2019/08/03/GPU-for-30-dollars.html	/^<\/h2>$/;"	i
 Posts	_site/index.html	/^<h2 class="post-list-heading">Posts<\/h2>$/;"	i
 Simple Generative Adversarial Network (GANs) with Keras	_site/index.html	/^        <\/h3><\/li><\/ul>$/;"	j
 Simple Generative Adversarial Network (GANs) with Keras 03 Aug 2019	_site/machine/learning/2019/08/03/GANs.html	/^<\/h2>$/;"	i
@@ -151,7 +149,6 @@ blockquote > :last-child	_site/assets/main.css	/^blockquote > :last-child { marg
 body	_site/assets/main.css	/^body { font: 400 16px\/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Ari/;"	s
 body	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 categories: Machine Learning	_posts/2018-02-01-GANs.md	/^categories: Machine Learning$/;"	s
-categories: Machine Learning	_posts/2019-01-01-me.md	/^categories: Machine Learning$/;"	s
 code	_site/assets/main.css	/^code { padding: 1px 5px; }$/;"	s
 code	_site/assets/main.css	/^pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; background-color: #e/;"	s
 dd	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
