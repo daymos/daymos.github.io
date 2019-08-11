@@ -23,7 +23,7 @@ url: daymos.github.io # the base hostname & protocol for your site, e.g. http://
 github_username:  daymos
 
 lang: en
-# comments: true
+comments: true
 
 
 # Build settings
