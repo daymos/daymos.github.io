@@ -133,7 +133,7 @@ Dedicated Server for just the time you need	_posts/2019-08-10-GPU-on-a-budget.md
 Dedicated Server for just the time you need	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="dedicated-server-for-just-the-time-you-need">Dedicated Server for just the time you need/;"	i
 Feel free to add content and custom Front Matter to this file.	index.md	/^# Feel free to add content and custom Front Matter to this file.$/;"	c
 GPU for Machine Learning on a 30 dollars budget	_site/index.html	/^        <\/h3><\/li><li><span class="post-meta">Feb 1, 2018<\/span>$/;"	j
-GPU for Machine Learning on a 30 dollars budget 03 Aug 2019	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<\/h2>$/;"	i
+GPU for Machine Learning on a 30 dollars budget	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^    <h1 class="post-title p-name" itemprop="name headline">GPU for Machine Learning on a 30 doll/;"	h
 Get machine specs	_posts/2019-08-10-GPU-on-a-budget.md	/^#### Get machine specs$/;"	t
 Google Colab free GPU/TPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Google Colab free GPU\/TPU$/;"	s
 Google Colab free GPU/TPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="google-colab-free-gputpu">Google Colab free GPU\/TPU<\/h2>$/;"	i
@@ -143,7 +143,7 @@ Performance and cost	_posts/2019-08-10-GPU-on-a-budget.md	/^## Performance and c
 Performance and cost	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="performance-and-cost">Performance and cost<\/h2>$/;"	i
 Posts	_site/index.html	/^<h2 class="post-list-heading">Posts<\/h2>$/;"	i
 Simple Generative Adversarial Network (GANs) with Keras	_site/index.html	/^        <\/h3><\/li><\/ul>$/;"	j
-Simple Generative Adversarial Network (GANs) with Keras 01 Feb 2018	_site/machine/learning/2018/02/01/GANs.html	/^<\/h2>$/;"	i
+Simple Generative Adversarial Network (GANs) with Keras	_site/machine/learning/2018/02/01/GANs.html	/^    <h1 class="post-title p-name" itemprop="name headline">Simple Generative Adversarial Network/;"	h
 This is the discriminator:	_posts/2018-02-01-GANs.md	/^### This is the discriminator:$/;"	S
 This is the discriminator:	_site/machine/learning/2018/02/01/GANs.html	/^<h3 id="this-is-the-discriminator">This is the discriminator:<\/h3>$/;"	j
 This is the generator:	_posts/2018-02-01-GANs.md	/^### This is the generator:$/;"	S
@@ -222,4 +222,6 @@ table tr:nth-child(even)	_site/assets/main.css	/^table tr:nth-child(even) { back
 ul	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 ul	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px/;"	s
 ul	_site/assets/main.css	/^ul, ol { margin-left: 30px; }$/;"	s
-{{ page.title }} {% if page.date %} {{ page.date | date_to_string }} {% endif %}	_layouts/post.html	/^<\/h2>$/;"	i
+{{ page.list_title | default: "Posts" }}	_layouts/home.html	/^    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}<\/h2>$/;"	i
+{{ page.title }}	_layouts/home.html	/^    <h1 class="page-heading">{{ page.title }}<\/h1>$/;"	h
+{{ post.title | escape }}	_layouts/home.html	/^        <\/h3>$/;"	j

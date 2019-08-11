@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: daymos.github.com 
-email: matt.321.null@gmail.com
+email: matt.321null@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Big Data and Machine Learning lessons, learned as a software engineer in London.
-    baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: daymos.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  daymos
 
