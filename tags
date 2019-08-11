@@ -130,14 +130,15 @@ About Me	_site/about/index.html	/^    <h1 class="post-title">About Me<\/h1>$/;"	
 Buy a GPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Buy a GPU$/;"	s
 Buy a GPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="buy-a-gpu">Buy a GPU<\/h2>$/;"	i
 Dedicated Server for just the time you need	_posts/2019-08-10-GPU-on-a-budget.md	/^## Dedicated Server for just the time you need$/;"	s
-Dedicated Server for just the time you need.	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="dedicated-server-for-just-the-time-you-need">Dedicated Server for just the time you need/;"	i
+Dedicated Server for just the time you need	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="dedicated-server-for-just-the-time-you-need">Dedicated Server for just the time you need/;"	i
 Feel free to add content and custom Front Matter to this file.	index.md	/^# Feel free to add content and custom Front Matter to this file.$/;"	c
+GPU for Machine Learning on a 30 dollars budget	_site/index.html	/^        <\/h3><\/li><li><span class="post-meta">Feb 1, 2018<\/span>$/;"	j
+GPU for Machine Learning on a 30 dollars budget 03 Aug 2019	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<\/h2>$/;"	i
 Get machine specs	_posts/2019-08-10-GPU-on-a-budget.md	/^#### Get machine specs$/;"	t
 Google Colab free GPU/TPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Google Colab free GPU\/TPU$/;"	s
-Google colabs free GPU/TPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="google-colabs-free-gputpu">Google colabs free GPU\/TPU<\/h2>$/;"	i
+Google Colab free GPU/TPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="google-colab-free-gputpu">Google Colab free GPU\/TPU<\/h2>$/;"	i
 How to make this practical for reuse	_posts/2019-08-10-GPU-on-a-budget.md	/^## How to make this practical for reuse$/;"	s
-Install CUDA	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="install-cuda">Install CUDA<\/h3>$/;"	j
-Install CUDA dependancies	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="install-cuda-dependancies">Install CUDA dependancies<\/h3>$/;"	j
+How to make this practical for reuse	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="how-to-make-this-practical-for-reuse">How to make this practical for reuse<\/h2>$/;"	i
 Performance and cost	_posts/2019-08-10-GPU-on-a-budget.md	/^## Performance and cost$/;"	s
 Performance and cost	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="performance-and-cost">Performance and cost<\/h2>$/;"	i
 Posts	_site/index.html	/^<h2 class="post-list-heading">Posts<\/h2>$/;"	i
@@ -152,7 +153,6 @@ Verify your code is running on the GPU	_posts/2019-08-10-GPU-on-a-budget.md	/^##
 Verify your code is running on the GPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="verify-your-code-is-running-on-the-gpu">Verify your code is running on the GPU<\/h2>$/;"	i
 What server to use	_posts/2019-08-10-GPU-on-a-budget.md	/^### What server to use$/;"	S
 What server to use	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="what-server-to-use">What server to use<\/h3>$/;"	j
-Wrapping up and how to make this practical for reusal	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="wrapping-up-and-how-to-make-this-practical-for-reusal">Wrapping up and how to make this /;"	i
 a	_site/assets/main.css	/^a { color: #2a7ae2; text-decoration: none; }$/;"	s
 a:hover	_site/assets/main.css	/^a:hover { color: #111; text-decoration: underline; }$/;"	s
 a:visited	_site/assets/main.css	/^a:visited { color: #1756a9; }$/;"	s
@@ -169,6 +169,8 @@ code	_site/assets/main.css	/^pre, code { font-size: 15px; border: 1px solid #e8e
 daymos.github.com	_site/404.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
 daymos.github.com	_site/about/index.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
 daymos.github.com	_site/index.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
+daymos.github.com	_site/machine/learning/2018/02/01/GANs.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
+daymos.github.com	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
 dd	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 dl	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 dl	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px/;"	s
@@ -176,8 +178,6 @@ figcaption	_site/assets/main.css	/^figcaption { font-size: 14px; }$/;"	s
 figure	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 figure	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px/;"	s
 figure > img	_site/assets/main.css	/^figure > img { display: block; }$/;"	s
-get a GPU for Machine Learning on 30 dollars	_site/index.html	/^        <\/h3><\/li><li><span class="post-meta">Feb 1, 2018<\/span>$/;"	j
-get a GPU for Machine Learning on 30 dollars 03 Aug 2019	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<\/h2>$/;"	i
 h1	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 h1	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6 { font-weight: 400; }$/;"	s
 h1	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px/;"	s

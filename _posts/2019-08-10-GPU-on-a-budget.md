@@ -13,9 +13,9 @@ Have you ever been in a situation where you need to train a Neural Network for p
 I have recently, and found a really nice way to get access one of the best  GPU around, for less then 30 bucks.
 
 Initially I thought of a couple of options: 
- - Buy a GPU, I always wanted one anyways. 
- - Use Google Colab free GPUs
- - Setup a server with a GPU
+* Buy a GPU, I always wanted one anyways. 
+* Use Google Colab free GPUs
+* Setup a server with a GPU
 
 
 ## Buy a GPU
@@ -55,10 +55,12 @@ Big gotcha is, they bill you not just for the time you keep the machine up, but 
 
  If you are think how to avoid setting up everything every time, Linode let you use docker images.
 
-I chose the smallest as it was fine for my needs. What you need to do next is to install the driver for the GPU. [This](https://www.pugetsystems.com/labs/hpc/How-to-install-CUDA-9-2-on-Ubuntu-18-04-1184/) is an amazing post that goes in depth, but frankly is quite easy and I'll show you the short version here. There are the steps you need to do:
-    * get specs on the machine
-    * install CUDA ( nvidia drivers ) dependencies
-    * install CUDA
+I chose the smallest as it was fine for my needs. What you need to do next is to install the driver for the GPU. [This](https://www.pugetsystems.com/labs/hpc/How-to-install-CUDA-9-2-on-Ubuntu-18-04-1184/) is an amazing post that goes in depth, but frankly is quite easy and I'll show you the short version here.
+
+There are the steps you need to do:
+* get specs on the machine
+* install CUDA ( nvidia drivers ) dependencies
+* install CUDA
 
 
 #### Get machine specs
