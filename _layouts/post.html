@@ -11,4 +11,6 @@ layout: default
 
 {{ content }}
 {% include analytics.html %}
-
+{% if page.comments %} 
+{% include disqus.html %}
+{% endif %}

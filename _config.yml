@@ -32,8 +32,8 @@ theme: minima
 plugins:
       - jekyll-feed
 
-disqus:
-    shortname: daymos-big-data-lessons
+        # disqus:
+        #     shortname: daymos-big-data-lessons
 
 google_analytics: UA-108257914-3
 # Exclude from processing.
