@@ -129,15 +129,14 @@
 About Me	_site/about/index.html	/^    <h1 class="post-title">About Me<\/h1>$/;"	h
 Buy a GPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Buy a GPU$/;"	s
 Buy a GPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="buy-a-gpu">Buy a GPU<\/h2>$/;"	i
-Dedicated Server for just the time you need.	_posts/2019-08-10-GPU-on-a-budget.md	/^## Dedicated Server for just the time you need. $/;"	s
+Dedicated Server for just the time you need	_posts/2019-08-10-GPU-on-a-budget.md	/^## Dedicated Server for just the time you need$/;"	s
 Dedicated Server for just the time you need.	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="dedicated-server-for-just-the-time-you-need">Dedicated Server for just the time you need/;"	i
 Feel free to add content and custom Front Matter to this file.	index.md	/^# Feel free to add content and custom Front Matter to this file.$/;"	c
 Get machine specs	_posts/2019-08-10-GPU-on-a-budget.md	/^#### Get machine specs$/;"	t
-Google colabs free GPU/TPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Google colabs free GPU\/TPU$/;"	s
+Google Colab free GPU/TPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Google Colab free GPU\/TPU$/;"	s
 Google colabs free GPU/TPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="google-colabs-free-gputpu">Google colabs free GPU\/TPU<\/h2>$/;"	i
-Install CUDA	_posts/2019-08-10-GPU-on-a-budget.md	/^### Install CUDA$/;"	S
+How to make this practical for reuse	_posts/2019-08-10-GPU-on-a-budget.md	/^## How to make this practical for reuse$/;"	s
 Install CUDA	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="install-cuda">Install CUDA<\/h3>$/;"	j
-Install CUDA dependancies	_posts/2019-08-10-GPU-on-a-budget.md	/^### Install CUDA dependancies$/;"	S
 Install CUDA dependancies	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="install-cuda-dependancies">Install CUDA dependancies<\/h3>$/;"	j
 Performance and cost	_posts/2019-08-10-GPU-on-a-budget.md	/^## Performance and cost$/;"	s
 Performance and cost	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="performance-and-cost">Performance and cost<\/h2>$/;"	i
@@ -153,7 +152,6 @@ Verify your code is running on the GPU	_posts/2019-08-10-GPU-on-a-budget.md	/^##
 Verify your code is running on the GPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="verify-your-code-is-running-on-the-gpu">Verify your code is running on the GPU<\/h2>$/;"	i
 What server to use	_posts/2019-08-10-GPU-on-a-budget.md	/^### What server to use$/;"	S
 What server to use	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="what-server-to-use">What server to use<\/h3>$/;"	j
-Wrapping up and how to make this practical for reusal	_posts/2019-08-10-GPU-on-a-budget.md	/^## Wrapping up and how to make this practical for reusal$/;"	s
 Wrapping up and how to make this practical for reusal	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="wrapping-up-and-how-to-make-this-practical-for-reusal">Wrapping up and how to make this /;"	i
 a	_site/assets/main.css	/^a { color: #2a7ae2; text-decoration: none; }$/;"	s
 a:hover	_site/assets/main.css	/^a:hover { color: #111; text-decoration: underline; }$/;"	s
