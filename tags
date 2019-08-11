@@ -127,18 +127,34 @@
 404	404.html	/^  <h1>404<\/h1>$/;"	h
 404	_site/404.html	/^  <h1>404<\/h1>$/;"	h
 About Me	_site/about/index.html	/^    <h1 class="post-title">About Me<\/h1>$/;"	h
-Daymos&#39; (Big) Data Lessons	_site/404.html	/^    <h2 class="footer-heading">Daymos&#39; (Big) Data Lessons<\/h2>$/;"	i
-Daymos&#39; (Big) Data Lessons	_site/about/index.html	/^    <h2 class="footer-heading">Daymos&#39; (Big) Data Lessons<\/h2>$/;"	i
-Daymos&#39; (Big) Data Lessons	_site/index.html	/^    <h2 class="footer-heading">Daymos&#39; (Big) Data Lessons<\/h2>$/;"	i
+Buy a GPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Buy a GPU$/;"	s
+Buy a GPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="buy-a-gpu">Buy a GPU<\/h2>$/;"	i
+Dedicated Server for just the time you need.	_posts/2019-08-10-GPU-on-a-budget.md	/^## Dedicated Server for just the time you need. $/;"	s
+Dedicated Server for just the time you need.	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="dedicated-server-for-just-the-time-you-need">Dedicated Server for just the time you need/;"	i
 Feel free to add content and custom Front Matter to this file.	index.md	/^# Feel free to add content and custom Front Matter to this file.$/;"	c
+Get machine specs	_posts/2019-08-10-GPU-on-a-budget.md	/^#### Get machine specs$/;"	t
+Google colabs free GPU/TPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Google colabs free GPU\/TPU$/;"	s
+Google colabs free GPU/TPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="google-colabs-free-gputpu">Google colabs free GPU\/TPU<\/h2>$/;"	i
+Install CUDA	_posts/2019-08-10-GPU-on-a-budget.md	/^### Install CUDA$/;"	S
+Install CUDA	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="install-cuda">Install CUDA<\/h3>$/;"	j
+Install CUDA dependancies	_posts/2019-08-10-GPU-on-a-budget.md	/^### Install CUDA dependancies$/;"	S
+Install CUDA dependancies	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="install-cuda-dependancies">Install CUDA dependancies<\/h3>$/;"	j
+Performance and cost	_posts/2019-08-10-GPU-on-a-budget.md	/^## Performance and cost$/;"	s
+Performance and cost	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="performance-and-cost">Performance and cost<\/h2>$/;"	i
 Posts	_site/index.html	/^<h2 class="post-list-heading">Posts<\/h2>$/;"	i
 Simple Generative Adversarial Network (GANs) with Keras	_site/index.html	/^        <\/h3><\/li><\/ul>$/;"	j
-Simple Generative Adversarial Network (GANs) with Keras 03 Aug 2019	_site/machine/learning/2019/08/03/GANs.html	/^<\/h2>$/;"	i
+Simple Generative Adversarial Network (GANs) with Keras 01 Feb 2018	_site/machine/learning/2018/02/01/GANs.html	/^<\/h2>$/;"	i
 This is the discriminator:	_posts/2018-02-01-GANs.md	/^### This is the discriminator:$/;"	S
-This is the discriminator:	_site/machine/learning/2019/08/03/GANs.html	/^<h3 id="this-is-the-discriminator">This is the discriminator:<\/h3>$/;"	j
+This is the discriminator:	_site/machine/learning/2018/02/01/GANs.html	/^<h3 id="this-is-the-discriminator">This is the discriminator:<\/h3>$/;"	j
 This is the generator:	_posts/2018-02-01-GANs.md	/^### This is the generator:$/;"	S
-This is the generator:	_site/machine/learning/2019/08/03/GANs.html	/^<h3 id="this-is-the-generator">This is the generator:<\/h3>$/;"	j
+This is the generator:	_site/machine/learning/2018/02/01/GANs.html	/^<h3 id="this-is-the-generator">This is the generator:<\/h3>$/;"	j
 To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults	index.md	/^# To modify the layout, see https:\/\/jekyllrb.com\/docs\/themes\/#overriding-theme-defaults$/;"	c
+Verify your code is running on the GPU	_posts/2019-08-10-GPU-on-a-budget.md	/^## Verify your code is running on the GPU$/;"	s
+Verify your code is running on the GPU	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="verify-your-code-is-running-on-the-gpu">Verify your code is running on the GPU<\/h2>$/;"	i
+What server to use	_posts/2019-08-10-GPU-on-a-budget.md	/^### What server to use$/;"	S
+What server to use	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h3 id="what-server-to-use">What server to use<\/h3>$/;"	j
+Wrapping up and how to make this practical for reusal	_posts/2019-08-10-GPU-on-a-budget.md	/^## Wrapping up and how to make this practical for reusal$/;"	s
+Wrapping up and how to make this practical for reusal	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<h2 id="wrapping-up-and-how-to-make-this-practical-for-reusal">Wrapping up and how to make this /;"	i
 a	_site/assets/main.css	/^a { color: #2a7ae2; text-decoration: none; }$/;"	s
 a:hover	_site/assets/main.css	/^a:hover { color: #111; text-decoration: underline; }$/;"	s
 a:visited	_site/assets/main.css	/^a:visited { color: #1756a9; }$/;"	s
@@ -149,8 +165,12 @@ blockquote > :last-child	_site/assets/main.css	/^blockquote > :last-child { marg
 body	_site/assets/main.css	/^body { font: 400 16px\/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Ari/;"	s
 body	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 categories: Machine Learning	_posts/2018-02-01-GANs.md	/^categories: Machine Learning$/;"	s
+categories: Machine Learning	_posts/2019-08-10-GPU-on-a-budget.md	/^categories: Machine Learning$/;"	s
 code	_site/assets/main.css	/^code { padding: 1px 5px; }$/;"	s
 code	_site/assets/main.css	/^pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; background-color: #e/;"	s
+daymos.github.com	_site/404.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
+daymos.github.com	_site/about/index.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
+daymos.github.com	_site/index.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
 dd	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 dl	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 dl	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px/;"	s
@@ -158,6 +178,8 @@ figcaption	_site/assets/main.css	/^figcaption { font-size: 14px; }$/;"	s
 figure	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 figure	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px/;"	s
 figure > img	_site/assets/main.css	/^figure > img { display: block; }$/;"	s
+get a GPU for Machine Learning on 30 dollars	_site/index.html	/^        <\/h3><\/li><li><span class="post-meta">Feb 1, 2018<\/span>$/;"	j
+get a GPU for Machine Learning on 30 dollars 03 Aug 2019	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^<\/h2>$/;"	i
 h1	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 h1	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6 { font-weight: 400; }$/;"	s
 h1	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px/;"	s

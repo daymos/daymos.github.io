@@ -6,3 +6,4 @@ layout: home
 ---
 Lessons learned as a software engineer in Big Data
 
+
