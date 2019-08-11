@@ -3,6 +3,7 @@ layout: post
 title:  "GPU for Machine Learning on a 30 dollars budget"
 date:   2019-08-03 13:08:15 +0100
 comments: true
+postid: 2
 categories: Machine Learning
 ---
 
@@ -127,4 +128,9 @@ The total cost of the operation was 27$. Pretty great for a GPU that cost 4k UK 
 Best practice would be to create a docker image. Linode allows you to pass a link to the image from the GUI when you initialize the machine. 
 
 I was in a hurry and went for a less optimal but faster solution, which is apt-clone. 
+
+
+
+
+
 

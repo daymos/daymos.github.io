@@ -169,8 +169,6 @@ code	_site/assets/main.css	/^pre, code { font-size: 15px; border: 1px solid #e8e
 daymos.github.com	_site/404.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
 daymos.github.com	_site/about/index.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
 daymos.github.com	_site/index.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
-daymos.github.com	_site/machine/learning/2018/02/01/GANs.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
-daymos.github.com	_site/machine/learning/2019/08/03/GPU-on-a-budget.html	/^    <h2 class="footer-heading">daymos.github.com<\/h2>$/;"	i
 dd	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 dl	_site/assets/main.css	/^body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; paddin/;"	s
 dl	_site/assets/main.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px/;"	s
