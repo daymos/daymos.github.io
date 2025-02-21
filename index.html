@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 Startups in 12 Months</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        /* Header styles */
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+
+        /* Progress counter */
+        .progress {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .startup-counter {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .month {
+            aspect-ratio: 1;
+            background: #e2e8f0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #718096;
+        }
+
+        .month.active {
+            background: #4299e1;
+            color: white;
+        }
+
+        /* Blog posts */
+        .posts {
+            display: grid;
+            gap: 20px;
+        }
+
+        .post {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .post-date {
+            font-size: 0.9em;
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        .post-title {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+
+        .post-excerpt {
+            color: #4a5568;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 15px;
+            color: #4299e1;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        /* About section */
+        .about {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            .startup-counter {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>12 Startups in 12 Months</h1>
+        <p>My journey building one startup every month in 2025</p>
+    </header>
+
+    <div class="progress">
+        <h2>Progress</h2>
+        <div class="startup-counter">
+            <div class="month active">1</div>
+            <div class="month active">2</div>
+            <div class="month">3</div>
+            <div class="month">4</div>
+            <div class="month">5</div>
+            <div class="month">6</div>
+            <div class="month">7</div>
+            <div class="month">8</div>
+            <div class="month">9</div>
+            <div class="month">10</div>
+            <div class="month">11</div>
+            <div class="month">12</div>
+        </div>
+    </div>
+
+    <div class="posts">
+        <article class="post">
+            <div class="post-date">February 21, 2025</div>
+            <h2 class="post-title">Startup #2: TaskFlow - AI-Powered Task Manager</h2>
+            <p class="post-excerpt">
+                This month I built TaskFlow, an AI-powered task manager that helps teams prioritize work effectively. Here's what I learned about building and launching in just 30 days...
+            </p>
+            <a href="#" class="read-more">Read more →</a>
+        </article>
+
+        <article class="post">
+            <div class="post-date">January 15, 2025</div>
+            <h2 class="post-title">Startup #1: RecipeGPT - Your AI Cooking Assistant</h2>
+            <p class="post-excerpt">
+                For my first startup, I created RecipeGPT, an AI cooking assistant that helps you cook with ingredients you have. Here's my journey from idea to launch...
+            </p>
+            <a href="#" class="read-more">Read more →</a>
+        </article>
+
+        <article class="post">
+            <div class="post-date">January 1, 2025</div>
+            <h2 class="post-title">Beginning My 12 Startups Journey</h2>
+            <p class="post-excerpt">
+                Why I decided to build 12 startups in 12 months, my goals, and how I plan to tackle this challenge. Here's my roadmap for the year ahead...
+            </p>
+            <a href="#" class="read-more">Read more →</a>
+        </article>
+    </div>
+
+    <section class="about">
+        <h2>About This Project</h2>
+        <p>
+            I'm challenging myself to build and launch 12 different startups in 12 months during 2025. 
+            Each startup will be built and launched within 30 days. Follow along as I document my 
+            journey, sharing successes, failures, and lessons learned along the way.
+        </p>
+    </section>
+</body>
+</html>
