@@ -245,10 +245,9 @@ blockquote {
     display: inline-block;
     width: 8px;
     height: 14px;
-    background: #00ff00;  /* Classic terminal green */
-    box-shadow: 0 0 8px rgba(0, 255, 0, 0.5);  /* Adds a subtle glow effect */
+    background: #3498db;
     margin-left: 5px;
-    animation: blink 1.2s step-end infinite;  /* More mechanical blink effect */
+    animation: blink 1s infinite;
 }
 
 /* Responsive design */
