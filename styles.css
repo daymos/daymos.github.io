@@ -19,7 +19,7 @@ header {
     text-align: center;
     padding: 40px 20px;
     margin-bottom: 30px;
-    border: 3px solid #e8e8e8;
+    border: 3px solid #3498db;
     background: #ffffff;
 }
 
@@ -87,7 +87,7 @@ article {
 .progress {
     padding: 20px;
     margin-bottom: 30px;
-    border: 3px solid #e8e8e8;
+    border: 3px solid #3498db;
     background: #ffffff;
 }
 
@@ -100,21 +100,33 @@ article {
 
 .month {
     aspect-ratio: 1;
-    border: 2px solid #e8e8e8;
+    border: 2px solid #3498db;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     font-family: monospace;
     background: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.month:hover {
+    background: #3498db;
+    color: white;
 }
 
 /* Blog posts */
 .post {
     padding: 25px;
     margin-bottom: 20px;
-    border: 3px solid #e8e8e8;
+    border: 3px solid #3498db;
     background: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.post:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.1);
 }
 
 .post-date {
@@ -155,7 +167,7 @@ article {
 .about {
     padding: 25px;
     margin-top: 30px;
-    border: 3px solid #e8e8e8;
+    border: 3px solid #3498db;
     background: #ffffff;
 }
 
