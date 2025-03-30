@@ -199,8 +199,25 @@ article {
 .article-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5em;
+    margin-bottom: 30px;
     line-height: 1.4;
-    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 2em;
+}
+
+.content h2 {
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin: 2em 0;
+    border: 2px solid #e8e8e8;
+    border-radius: 4px;
 }
 
 /* Lists */
