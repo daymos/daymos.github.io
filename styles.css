@@ -312,4 +312,70 @@ blockquote {
     .article-title {
         font-size: 1.2em;
     }
+}
+
+/* Newsletter section */
+.newsletter {
+    padding: 25px;
+    margin-top: 30px;
+    border: 3px solid #3498db;
+    background: #ffffff;
+}
+
+.newsletter p {
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.subscribe-form input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #e8e8e8;
+    font-family: monospace;
+    font-size: 1em;
+}
+
+.subscribe-form input[type="email"]:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: #ffffff;
+    border: 2px solid #3498db;
+    font-family: monospace;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.subscribe-button:hover {
+    background: #ffffff;
+    color: #3498db;
+}
+
+.subscribe-message {
+    text-align: center;
+    font-family: monospace;
+    font-size: 0.9em;
+    min-height: 20px;
+}
+
+.subscribe-message.success {
+    color: #27ae60;
+}
+
+.subscribe-message.error {
+    color: #e74c3c;
 } 
