@@ -95,12 +95,7 @@
             </p>
             <div class="newsletter-container">
                 <p>Subscribe to get notified when I publish new posts about my startups journey.</p>
-                <form action="https://sender.net/subscribe/442b2343827920" method="POST" class="subscribe-form">
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Enter your email" required>
-                        <button type="submit" class="subscribe-button">Subscribe</button>
-                    </div>
-                </form>
+                <div style="text-align: left" class="sender-form-field" data-sender-form-id="m8w5g686av2mvlhkl54"></div>
             </div>
         </section>
     </main>
@@ -108,5 +103,20 @@
     <footer>
         <p>© 2024 Mattia. Building in public.</p>
     </footer>
+
+    <script>
+        (function (s, e, n, d, er) {
+            s['Sender'] = er;
+            s[er] = s[er] || function () {
+                (s[er].q = s[er].q || []).push(arguments)
+            }, s[er].l = 1 * new Date();
+            var a = e.createElement(n),
+                m = e.getElementsByTagName(n)[0];
+            a.async = 1;
+            a.src = d;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+        sender('442b2343827920')
+    </script>
 </body>
 </html>
