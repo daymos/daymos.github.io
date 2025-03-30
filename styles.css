@@ -110,6 +110,15 @@ article {
     transition: all 0.2s ease;
 }
 
+.month:nth-child(1) {
+    background: #3498db;
+    color: #ffffff;
+}
+
+.month:nth-child(2) {
+    animation: blinkBox 2s infinite;
+}
+
 .month:hover {
     background: #3498db;
     color: white;
@@ -239,6 +248,21 @@ blockquote {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+@keyframes blinkBox {
+    0% { 
+        background-color: #ffffff; 
+        color: #2c3e50;
+    }
+    50% { 
+        background-color: #3498db; 
+        color: #ffffff;
+    }
+    100% { 
+        background-color: #ffffff; 
+        color: #2c3e50;
+    }
 }
 
 .cursor {
