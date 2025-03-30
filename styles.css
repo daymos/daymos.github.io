@@ -377,4 +377,75 @@ blockquote {
 
 .subscribe-message.error {
     color: #e74c3c;
+}
+
+/* Content layout */
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.main-content {
+    min-width: 0; /* Prevents grid item from overflowing */
+}
+
+/* Sidebar */
+.sidebar {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+.widget {
+    background: #ffffff;
+    border: 3px solid #3498db;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.newsletter-widget {
+    text-align: center;
+}
+
+.newsletter-widget h2 {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.newsletter-widget p {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .content-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        position: static;
+        margin-top: 30px;
+    }
+}
+
+.subscribe-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #3498db;
+    color: #ffffff;
+    border: 2px solid #3498db;
+    font-family: monospace;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 15px;
+}
+
+.subscribe-button:hover {
+    background: #ffffff;
+    color: #3498db;
 } 
