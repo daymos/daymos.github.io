@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; frame-ancestors 'self'">
     <title>12 Startups in 12 Months</title>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-282L1RZ8Q3"></script>
     <script src="analytics.js"></script>
@@ -98,22 +98,53 @@
         <section class="newsletter" aria-label="Newsletter Subscription">
             <h2>STAY UPDATED</h2>
             <p>Subscribe to get notified when I publish new posts about my startups journey.</p>
-            <div class="subscribe-form">
-                <iframe 
-                    src="https://sender.net/embed/442b2343827920" 
-                    width="100%" 
-                    height="200" 
-                    frameborder="0" 
-                    scrolling="no"
-                    style="border: none;"
-                    title="Newsletter subscription form">
-                </iframe>
-            </div>
+            <form id="subscribe-form" class="subscribe-form">
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit" class="subscribe-button">Subscribe</button>
+                </div>
+                <div id="subscribe-message" class="subscribe-message"></div>
+            </form>
         </section>
     </main>
 
     <footer>
         <p>© 2024 Mattia. Building in public.</p>
     </footer>
+
+    <script>
+        // Initialize Sender.net
+        window.sender = window.sender || function() {
+            (window.sender.q = window.sender.q || []).push(arguments);
+        };
+
+        // Handle form submission
+        document.getElementById('subscribe-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            const messageDiv = document.getElementById('subscribe-message');
+            
+            // Call Sender.net subscribe
+            sender('subscribe', {
+                email: email,
+                onSuccess: function() {
+                    messageDiv.textContent = 'Thanks for subscribing!';
+                    messageDiv.className = 'subscribe-message success';
+                    document.getElementById('email').value = '';
+                },
+                onError: function(error) {
+                    messageDiv.textContent = 'Something went wrong. Please try again.';
+                    messageDiv.className = 'subscribe-message error';
+                    console.error('Subscription error:', error);
+                }
+            });
+        });
+    </script>
+
+    <!-- Load Sender.net script -->
+    <script async src="https://cdn.sender.net/accounts_resources/universal.js"></script>
+    <script>
+        sender('442b2343827920');
+    </script>
 </body>
 </html>
