@@ -314,21 +314,21 @@ blockquote {
     }
 }
 
-/* Newsletter section */
-.newsletter {
-    padding: 25px;
-    margin-top: 30px;
-    border: 3px solid #3498db;
-    background: #ffffff;
+/* Newsletter styles */
+.newsletter-container {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 2px solid #e8e8e8;
 }
 
-.newsletter p {
-    margin-bottom: 20px;
+.newsletter-container p {
+    margin-bottom: 1em;
+    font-size: 0.95em;
+    color: #666;
 }
 
 .subscribe-form {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 100%;
 }
 
 .form-group {
@@ -339,10 +339,11 @@ blockquote {
 
 .subscribe-form input[type="email"] {
     flex: 1;
-    padding: 10px;
+    padding: 8px 12px;
     border: 2px solid #e8e8e8;
     font-family: monospace;
-    font-size: 1em;
+    font-size: 0.9em;
+    background: #ffffff;
 }
 
 .subscribe-form input[type="email"]:focus {
@@ -351,13 +352,15 @@ blockquote {
 }
 
 .subscribe-button {
-    padding: 10px 20px;
+    padding: 8px 16px;
     background: #3498db;
     color: #ffffff;
     border: 2px solid #3498db;
     font-family: monospace;
+    font-size: 0.9em;
     cursor: pointer;
     transition: all 0.2s ease;
+    white-space: nowrap;
 }
 
 .subscribe-button:hover {
@@ -368,7 +371,7 @@ blockquote {
 .subscribe-message {
     text-align: center;
     font-family: monospace;
-    font-size: 0.9em;
+    font-size: 0.85em;
     min-height: 20px;
 }
 
